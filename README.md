@@ -46,7 +46,7 @@ Demo 地址：https://github.com/Trinea/TrineaDownload/blob/master/pull-to-refre
 下拉刷新，第一个项目已经停止维护了，并且使用起来相对复杂，定制性也差。这个是替代和改良方案。这个继承于 ViewGroup 可以包含任何 View。功能甚至比 SwipeRefreshLayout 强大。使用起来非常简单。良好的设计，如果你想定制自己的 UI 样式，非常简单，就像给 ListView 加一个 Header View 那么简单。支持 `API LEVEL >= 8`  
 项目地址：https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh  
 原理剖析文档：[android-Ultra-Pull-to-Refresh](http://a.codekk.com/detail/Android/Grumoon/android-Ultra-Pull-To-Refresh 源码解析)  
-Demo 地址：https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh/blob/master/ptr-demo/target/ultra-ptr-demo.apk?raw=true  
+Demo 地址：https://raw.githubusercontent.com/liaohuqiu/android-Ultra-Pull-To-Refresh/master/ptr-demo.apk  
 效果图：![Renderings](http://srain-github.qiniudn.com/ultra-ptr/contains-all-of-views.gif)  
 http://srain-github.qiniudn.com/ultra-ptr/release-to-refresh.gif  
 http://srain-github.qiniudn.com/ultra-ptr/auto-refresh.gif  
@@ -55,7 +55,7 @@ http://srain-github.qiniudn.com/ultra-ptr/store-house-string-array.gif
 1. Android-PullToRefreshRecyclerView  
 支持下拉刷新的RecyclerView，同时支持滑动到底部自动加载数据、给RecyclerView添加Header。并且不更改原有RecyclerView的逻辑。  
 ![Screenshot](https://github.com/HomHomLin/Android-PullToRefreshRecyclerView/blob/master/screenshot.gif)  
-项目地址：https://github.com/HomHomLin/Android-PullToRefreshRecyclerView。    
+项目地址：https://github.com/HomHomLin/Android-PullToRefreshRecyclerView
 Demo地址：https://github.com/HomHomLin/Android-PullToRefreshRecyclerView/blob/master/sample.apk  
 
 1. DragSortListView  
@@ -69,6 +69,13 @@ APP 示例：Wordpress Android
 项目地址：https://github.com/47deg/android-swipelistview  
 Demo 地址：https://play.google.com/store/apps/details?id=com.fortysevendeg.android.swipelistview  
 APP 示例：微信 
+
+1. Android-SlidingLayout  
+实现类似QQ、微信ListView和WebView的上拉下拉弹跳效果和iOS的ListView的果冻效果。兼容Android自带库和兼容库的所有View组件，包括RecyclerView、ListView、ScrollView以及WebView等等。  
+![p1](https://raw.githubusercontent.com/HomHomLin/SlidingLayout/master/pic/list.gif)  
+![p2](https://raw.githubusercontent.com/HomHomLin/SlidingLayout/master/pic/webview.gif)  
+项目地址：https://github.com/HomHomLin/SlidingLayout/。    
+Demo地址：https://github.com/HomHomLin/SlidingLayout/tree/master/demo  
 
 1. SlideAndDragListView  
 支持ListView的Item的拖动排序、左右滑动事件，可自定义左右滑动显示文字、图标、位移，同时支持onItemClick、onItemLongClick等监听器，提供丰富的回调接口。  
@@ -86,6 +93,11 @@ Demo 地址：https://github.com/JakeWharton/SwipeToDismissNOA/SwipeToDismissNOA
 轻量级支持 support-v7 中的 RecyclerView 的滑动删除(Swipe to dismiss)行为，不需要修改源代码，只要简单的绑定`onTouchListener`  
 项目地址：https://github.com/CodeFalling/RecyclerViewSwipeDismiss  
 效果图：![Renderings](https://raw.githubusercontent.com/CodeFalling/RecyclerViewSwipeDismiss/master/RecyclerViewSwipeDismiss.gif)  
+
+1. QuickSideBar  
+帮助快速查阅对应分组的侧边栏，可以配合任意列表，demo中给出配合RecyclerView(浮动分组使用stickyheadersrecyclerview)。  
+项目地址：https://github.com/saiwu-bigkoo/Android-QuickSideBar  
+效果图：![Renderings](https://github.com/saiwu-bigkoo/Android-QuickSideBar/blob/master/preview/quicksidebardemo.gif) 
 
 1. PinnedHeaderExpandableListView  
 首先它是一个 ExpandableListView，但是它的头部可以固定，其次，在它的上面还有一个头部可以来回伸缩  
@@ -446,8 +458,9 @@ Demo 地址：[SlideBottomPanelDemo 下载](https://github.com/kingideayou/Slide
 
 #### 四、ViewPager 、Gallery
 1. AdvancedPagerSlidingTabStrip   
-一个完美兼容ViewPager的导航栏组件；可以自定义TabView；能动态加载Tab上的Icon图片； 能显示Tab的消息数量和提示小圆点。  
-![p1](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160216163404.png)  
+一个完美兼容ViewPager的导航栏组件；可以自定义TabView；能动态加载Tab上的Icon图片； 能显示Tab的消息数量和提示小圆点；支持自定义为微博形式的可滑动tab。  
+![p1](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160216163404.png) 
+![p2](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160411141706.png)
 项目地址：https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip。  
 
 1. ConvenientBanner  
@@ -801,6 +814,15 @@ Demo地址：(https://play.google.com/store/apps/details?id=com.mikhaellopez.cir
 一个可定制的圆形进度条，通过xml参数配置可实现QQ健康中步数的弧形进度显示、仪盘表显示速度、最常见的下载进度条等功能。<br/>
 项目地址：https://github.com/Shinelw/ColorArcProgressBar<br/>
 效果图：<br/>![ColorArcProgressBar](https://raw.githubusercontent.com/Shinelw/ColorArcProgressBar/master/Demo.gif)
+
+1. LoadingDrawable
+一些酷炫的android加载动画，可以与任何组件配合使用作为加载的组件或者ProgressBar。<br>
+项目地址：https://github.com/dinuscxj/LoadingDrawable
+效果图：<br/>
+![LoadingDrawable](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/AnimalDrawable.gif?width=300)
+![LoadingDrawable](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/SceneryDrawable.gif?width=300)
+![LoadingDrawable](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/CircleJumpDrawable.gif?width=300)
+![LoadingDrawable](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/CircleRotateDrawable.gif?width=300)
 
 #### 八、TextView
 包括 TextView 及所有继承自 TextView 控件，如 EditText、Button、RadioButton  
@@ -1533,6 +1555,10 @@ demo地址：https://github.com/wenmingvs/NotifyUtil#notifydemo
 项目地址：https://github.com/canyinghao/CanDialog  
 效果图：  
 ![Renderings](https://raw.githubusercontent.com/canyinghao/CanDialog/master/pic/CanDialog.gif) 
+
+1. WindRoseDiagramView
+一个风力玫瑰图的 View 组件，项目地址：![https://github.com/timqi/WindRoseDiagramView/](https://github.com/timqi/WindRoseDiagramView/)
+![效果图](https://github.com/timqi/WindRoseDiagramView/raw/master/art/WindRoseDiagram.gif) 
 
 ## 第二部分 工具库
 主要包括那些不错的开发库，包括依赖注入框架、图片缓存、网络请求、数据库 ORM 建模、Android 公共库、Android 高版本向低版本兼容、多媒体相关及其他。  
