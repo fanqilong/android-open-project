@@ -7,8 +7,10 @@ Android 开源项目分类汇总
 
 ####<a href="http://a.codekk.com" target="_blank">Android 开源项目源码解析(Volley、UIL、Dagger、EventBus、插件化库等分析)</a>  
 ####<a href="http://j.codekk.com" target="_blank">Android 职位内部推荐(阿里、腾讯、百度、京东、滴滴、美团、58、华为、网易、魅族等)</a>  
+####<a href="http://p.codekk.com" target="_blank">强大的 Android 开源项目搜索站</a>  
 
-欢迎大家推荐好的 Android 开源项目，可直接[Commit](https://github.com/Trinea/android-open-project/wiki "请遵守<内容添加及编辑规范>")，欢迎`Star`、`Fork` :)  
+欢迎大家推荐好的 Android 开源项目，开源项目添加到 <a href="http://p.codekk.com/add-project" target="_blank">Android 开源项目集合</a>，可以得到更多朋友的关注和反馈，欢迎`Star`、`Fork` :)  
+
 > **关于我，欢迎关注**  
  微博：<a title="Android 技术及移动互联网分享" href="http://weibo.com/trinea?s=6cm7D0" target="_blank">Trinea</a>&nbsp;&nbsp;&nbsp;&nbsp;主页：<a title="关注于 Android、Java、性能优化、开源项目" href="http://www.trinea.cn/" target="_blank">trinea.cn</a>  
 
@@ -309,6 +311,17 @@ Demo 地址：https://play.google.com/store/apps/details?id=com.baobomb.popuplis
 效果图：  
 ![Renderings](https://raw.githubusercontent.com/canyinghao/CanRefresh/master/pic/CanRefresh.gif)   
 
+1. NestRefreshLayout  
+下拉刷新及加载更多控件，支持多种View，可以自定义Header和Footer
+由于实现了NestedScrollingChild和NestedScrollingParent所以与Support-Design兼容，可以配合CollapsingToolbarLayout使用  
+项目地址：https://github.com/anzewei/NestRefreshLayout  
+Demo 地址：https://github.com/anzewei/NestRefreshLayout/blob/master/ext/sample-debug.apk?raw=true
+
+1. SnappingSwipingRecyclerView
+实现了类似微信读书首页的长按之后滑动删除的特效和动画
+<img src="https://raw.githubusercontent.com/CarlLee/SnappingSwipingRecyclerView/master/preview.gif" height="480" width="320" >
+项目地址:https://github.com/CarlLee/SnappingSwipingRecyclerView
+
 #### 二、ActionBar
 1. ActionBarSherlock  
 为 Android 所有版本提供统一的 ActionBar，解决 4.0 以下 ActionBar 的适配问题  
@@ -456,6 +469,11 @@ Demo 地址：[SlideBottomPanelDemo 下载](https://github.com/kingideayou/Slide
 项目地址：[https://github.com/mxn21/FlowingDrawer](https://github.com/mxn21/FlowingDrawer)
 效果图：![Renderings](https://github.com/mxn21/FlowingDrawer/raw/master/screen.gif)  
 
+1. FloatingActionMenu-Animation  
+扩展FloatingActionMenu库，自定义菜单图标，动画滚动时
+项目地址: https://github.com/toanvc/FloatingActionMenu-Animation  
+效果图: ![Renderings](https://github.com/toanvc/FloatingActionMenu-Animation/raw/master/screenshots/scale.gif)    
+
 #### 四、ViewPager 、Gallery
 1. AdvancedPagerSlidingTabStrip   
 一个完美兼容ViewPager的导航栏组件；可以自定义TabView；能动态加载Tab上的Icon图片； 能显示Tab的消息数量和提示小圆点；支持自定义为微博形式的可滑动tab。  
@@ -572,6 +590,11 @@ App
 效果图：  
 ![Renderings](https://raw.githubusercontent.com/CaMnter/EasySlidingTabs/master/readme/readme_easy_sliding_tabs_1.png)   
 
+1. ParallaxViewPager  
+ViewPager页面切换视差效果  
+项目地址：https://github.com/ybq/ParallaxViewPager  
+效果图：    
+![Renderings](https://github.com/ybq/ParallaxViewPager/raw/master/art/screen.gif)   
 
 #### 五、GridView
 1. StaggeredGridView  
@@ -823,6 +846,11 @@ Demo地址：(https://play.google.com/store/apps/details?id=com.mikhaellopez.cir
 ![LoadingDrawable](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/SceneryDrawable.gif?width=300)
 ![LoadingDrawable](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/CircleJumpDrawable.gif?width=300)
 ![LoadingDrawable](https://raw.githubusercontent.com/dinuscxj/LoadingDrawable/master/Preview/CircleRotateDrawable.gif?width=300)
+1. Android-SpinKit  
+Android加载动画库  
+项目地址：https://github.com/ybq/Android-SpinKit  
+效果图：  
+![Renderings](https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/screen.gif)  
 
 #### 八、TextView
 包括 TextView 及所有继承自 TextView 控件，如 EditText、Button、RadioButton  
@@ -1323,6 +1351,12 @@ Android 扁平化风格的组件，支持一些自定义样式
 Demo 地址：https://play.google.com/store/apps/details?id=me.imid.swipebacklayout.demo  
 APP 示例：知乎  
 
+1. ParallaxBackLayout  
+视差滑动返回的 Activity
+项目地址：https://github.com/anzewei/ParallaxBackLayout  
+Demo 地址：https://github.com/anzewei/ParallaxBackLayout/blob/master/ext/demo.apk?raw=true  
+效果图：![Renderings](https://github.com/anzewei/ParallaxBackLayout/blob/master/ext/v0.2.gif)  
+
 1. android-styled-dialogs  
 可自定义样式的 dialog，默认与 Holo 主题样式一致，在 Android2.2 以上同一样式  
 项目地址：https://github.com/inmite/android-styled-dialogs  
@@ -1714,6 +1748,11 @@ Demo 地址：https://github.com/stephanenicolas/RoboDemo/downloads
 1. TwistVolley  
 TwistVolley 是对 Volley 的一个封装库。提供类似 Picasso 一样的串联式 API。使得使用 Volley 更加方便。  
 项目地址：https://github.com/TwistedEquations/TwistVolley  
+
+1. OkHttpFinal  
+一个对OkHttp封装的简单易用型HTTP请求和文件下载管理框架  
+项目地址：https://github.com/pengjianbo/OkHttpFinal  
+Demo 地址：https://github.com/pengjianbo/OkHttpFinal  
 
 #### 四、数据库 orm 工具包
 orm 的 db 工具类，简化建表、查询、更新、插入、事务、索引的操作 
@@ -2611,6 +2650,11 @@ dagger 的 intellij 插件
 根据 JSONObject 格式的字符串,自动生成实体类参数的 Android Studio/IntelliJ IDEA 插件  
 项目地址：https://github.com/zzz40500/GsonFormat  
 效果图：![Renderings](https://camo.githubusercontent.com/fbf4b89e2ec64e80d351f725d11762ebd2b7a515/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3136363836362d303766333038346262363735386566612e676966)  
+
+1. Json2Class  
+根据Json生成Java文件的Android Studio/IntelliJ IDEA 插件，并且可以选择Parcelable或者Serializable  
+项目地址：https://github.com/anzewei/Json2Class  
+效果图：![Renderings](https://raw.githubusercontent.com/anzewei/Json2Class/master/screenshot/screenshot_15002.png)  
 
 1. 9-Patch-Resizer  
 自动生成 png 及点 9 图片的不同分辨率版本  
